@@ -35,6 +35,11 @@ checks and alerts for missing data in database tables
     "status": 1
     }
 
+
+INSTRUCTIONS TO RUN API 
+O. The submission uses postgres as the database to check the tables against
+   set the connection string in the .env file
+
 1. create docker image using provided Dockerfile
 
     docker build -t flask-image .
