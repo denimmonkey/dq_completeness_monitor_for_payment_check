@@ -6,6 +6,8 @@ checks and alerts for missing data in database tables
      The count of rows between min_id and max_id  for the appropriate created_at timestamp is compared
      against row_exported 
 
+     returns json output with status = 1 in case of data count mismatch and status = 0 if counts match
+
      end poins:
      1. /
         returns if service is up and running 
