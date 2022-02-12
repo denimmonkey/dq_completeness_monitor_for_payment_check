@@ -36,7 +36,8 @@ checks and alerts for missing data in database tables
     }
 
 
-INSTRUCTIONS TO RUN API 
+INSTRUCTIONS TO RUN API
+ 
 O. The submission uses postgres as the database to check the tables against
    set the connection string in the .env file
 
